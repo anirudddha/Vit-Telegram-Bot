@@ -1,0 +1,369 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi there",
+          "How are you",
+          "Is anyone there?",
+          "Hey",
+          "Hola",
+          "Hello",
+          "Good day"
+        ],
+        "responses": [
+          "Hello",
+          "Good to see you again",
+          "Hi there, how can I help?"
+        ],
+        "context": [
+          ""
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": [
+          "Bye",
+          "See you later",
+          "Goodbye",
+          "Nice chatting to you, bye",
+          "Till next time"
+        ],
+        "responses": [
+          "See you!",
+          "Have a nice day",
+          "Bye! Come back again soon."
+        ],
+        "context": [
+          ""
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": [
+          "Thanks",
+          "Thank you",
+          "That's helpful",
+          "Awesome, thanks",
+          "Thanks for helping me"
+        ],
+        "responses": [
+          "My pleasure",
+          "You're Welcome"
+        ],
+        "context": [
+          ""
+        ]
+      },
+      {
+        "tag": "vit",
+        "patterns": [
+          "What is VIT?",
+          "Tell me about VIT",
+          "VIT University information",
+          "Info about Vit"
+        ],
+        "responses": [
+          "VIT (Vellore Institute of Technology) is a private deemed university located in Vellore, Tamil Nadu, India. It was founded in 1984 and has since grown to become one of the top educational institutions in the country. VIT offers undergraduate, postgraduate, and doctoral programs in various fields of study including engineering, management, sciences, and humanities. The university is known for its state-of-the-art infrastructure, highly qualified faculty, and emphasis on research and innovation."
+        ],
+        "context": [
+          ""
+        ]
+      },
+      {
+        "tag": "courses",
+        "patterns": [
+          "What courses does VIT offer?",
+          "Tell me about the courses at VIT",
+          "List of programs at VIT",
+          "What types of courses can students enroll in at VIT?",
+          "Could you list the courses available at VIT?",
+          "Can you provide information on the curriculum options at VIT?"
+        ],
+        "responses": [
+          "VIT offers a wide range of courses across multiple disciplines. Some of the popular undergraduate programs include B.Tech, B.Sc, BBA, B.Com, and B.Arch. The university also offers postgraduate programs such as M.Tech, M.Sc, MBA, MCA, and M.Arch. Additionally, VIT provides doctoral programs for those interested in pursuing research in various fields. The courses at VIT are designed to provide students with a comprehensive education and prepare them for successful careers in their chosen fields."
+        ],
+        "context": [
+          ""
+        ]
+      },
+      {
+        "tag": "admission",
+        "patterns": [
+          "How can I get admission in VIT?",
+          "What is the admission process at VIT?",
+          "Admission criteria for VIT",
+          "How can I successfully enroll at VIT?",
+          "What are the procedures for applying to VIT"
+        ],
+        "responses": [
+          "To get admission in VIT, you need to appear for the Vellore Institute of Technology Engineering Entrance Examination (VITEEE) for undergraduate programs such as B.Tech. The exam is conducted annually and tests your knowledge in subjects like Physics, Chemistry, Mathematics, and English. The selection for other programs like postgraduate courses is based on merit, which includes academic performance and performance in entrance exams like GATE, CAT, and MAT. It is recommended to visit the official VIT website for the most up-to-date admission information."
+        ],
+        "context": [
+          ""
+        ]
+      },
+      {
+        "tag": "placements",
+        "patterns": [
+          "How are the placements at VIT?",
+          "Tell me about the campus placements at VIT",
+          "Placement statistics of VIT",
+          "What can you tell me about the placement opportunities available at VIT",
+          "How successful are the campus placements at VIT",
+          "Can you elaborate on the placement services offered by VIT"
+        ],
+        "responses": [
+          "VIT has a strong track record when it comes to placements. The university has a dedicated placement cell that works towards providing placement opportunities for the students. Major companies from various industries visit the campus for recruitment drives. The placement statistics at VIT are impressive, with a high percentage of students being placed in reputed companies with competitive salary packages. The university also offers internships and training programs to enhance the students' industry readiness and employability skills."
+        ],
+        "context": [
+          ""
+        ]
+      },
+      {
+        "tag": "faculties",
+        "patterns": [
+          "How's the faculty at VIT?",
+          "Tell me about the faculties at VIT",
+          "teaching staff of vit",
+          "What are the qualifications and experience levels of the faculty members at VIT",
+          "What is the quality of the faculty like at VIT",
+          "How do students perceive the faculty members at VIT"
+        ],
+        "responses": [
+          "The reason for saying it depends is that we've FFCS , that's Fully Flexible Credit System. If you've read about VIT, you probably know what it is. In short, it allows you to select your place of learning, your time of learning, your faculty. Each faculty is alotted a slot, say A1 and a venue, say SJT 123. Since the campus is very large, students due to laziness opt for nearby classes. Others opt for faculties who give marks.\n\nHardly a few students select faculties who are extremely good in teaching, just because they don't want to miss out on marks. It's not that all good faculties don't give marks. But, if a faculty is good at teaching, he expects more from his students.\n\nComing to doubts, if you'll study you'll have doubts for sure. Or say, you miss a class and want to learn it from the faculty, then the professors here are very understanding. Every faculty has his/her open hours. You can meet the faculty, ask your doubts and they're always more than happy to help.\n\nCome to VIT if you aren't getting a seat into IITs or NITs, it gives you all the exposure you need. There's a lot more to VIT than what you would be knowing. But only come if you've the willpower and dedication to work hard. You've a lot of quizzes, 2 CAT exams, one FAT exam, Digital Assignments, then lab component, projects, etc. After this you would be a part of some club or chapter. If you're lucky enough to land yourself in a Team, then you'll experience the best of life as you'll end up getting back to hostel room at 2a.m.\n\nIf you're lazy , you'll never realise what opportunities you've in hand because of VIT. So, in short it doesn't just depend on the faculty, it depends on how you make the best out of opportunities here.",
+          "\nThe faculty at VIT Chennai is diverse and experienced, with members holding advanced degrees and often having industry exposure. They engage in research, employ various teaching methodologies, and support students' academic and professional growth. Overall, they contribute to a quality learning environment aimed at preparing students for successful careers."
+        ],
+        "context": [
+          ""
+        ]
+      },
+      {
+        "tag": "gym",
+        "patterns": [
+          "How's the gym facilities at VIT?",
+          "Tell me about the facilities provided at VIT regarding health",
+          "is there any paid gym",
+          "What facilities available in campus premises",
+          "What resources and services are accessible within the VIT campus premises",
+          "Can you list the facilities and utilities that students can utilize on the VIT campus",
+          "What provisions are there for students within the confines of the VIT campus"
+        ],
+        "responses": [
+          "A central multi-facility piece of equipment enables several enthusiasts to work out at the same time. Women students have a 4-station multi-gym of their own. Both gyms are spacious and well equipped with modern facilities.there are also paid gym membership in campus which have AC and spacious and clean bathroom it also have mentained gym equipments you can enjoy the facility if you want to ",
+          "\nVIT Chennai offers modern and well-equipped gym facilities. The gym includes a range of fitness equipment, such as cardio machines, weight training equipment, and exercise stations. Trained fitness instructors are available to assist students and provide guidance. Overall, the gym facilities at VIT Chennai are designed to promote physical fitness and wellness among students."
+        ],
+        "context": [
+          ""
+        ]
+      },
+      {
+        "tag": "food",
+        "patterns": [
+          "How's the food in VIT?",
+          "Tell me about eating option available in vit",
+          "is there any resturant",
+          "Can you tell me about the dining options available at VIT",
+          ""
+        ],
+        "responses": [
+          "On-Campus Food Outlets VIT Chennai offers various food outlets within the campus, including canteens, chat and bakery food courts, and a multipurpose shopping mall called V-Mart. Cafeteria and Dining Halls Hostels at VIT Chennai have separate dining halls that provide hot and hygienic food to students. There are also special dining halls that cater to different dietary needs. ",
+          "\nVIT Chennai offers a range of eating options, including cafeterias with Indian and international cuisine, food courts with fast food and desserts, mess facilities in hostels, coffee shops, and food delivery services nearby."
+        ],
+        "context": [
+          ""
+        ]
+      },
+      {
+        "tag": "guest house",
+        "patterns": [
+          "is there is any facility available for guest or visitors to stay in campus in vit chennai",
+          "Tell me about guest house in vit",
+          "is there any guest house",
+          "Are there lodging options like guest houses provided by VIT for guests",
+          "Could you tell me if VIT has guest house facilities for parents",
+          "Are there any temporary stay options like guest houses available at VIT"
+        ],
+        "responses": [
+          "Yes, VIT Chennai provides accommodation facilities for guests and visitors on campus. The campus has guest houses that offer comfortable stay options for visitors. These guest houses are equipped with amenities to ensure a pleasant stay experience for guests visiting the campus.",
+          "\nYes, VIT Chennai typically provides guest accommodation facilities on campus for visitors or guests. These accommodations are usually available in guest houses or designated rooms within the campus. Visitors can book these facilities in advance to stay comfortably during their visit to the campus."
+        ],
+        "context": [
+          ""
+        ]
+      },
+      {
+        "tag": "health center ",
+        "patterns": [
+          "is there is any facility available for health related issues",
+          "Tell me about health center in vit",
+          "is there any hospital",
+          "What kind of health services does VIT offer to its students",
+          "Are there provisions for addressing health concerns within the VIT campus",
+          "Does VIT provide any healthcare facilities or services on campus"
+        ],
+        "responses": [
+          "Yes, VIT Chennai has a health center on campus to cater to the medical needs of students, faculty, and staff. The health center is equipped with medical facilities and staffed with qualified medical professionals to provide healthcare services to the campus community. The presence of a health center ensures that medical assistance is readily available to address any health concerns or emergencies that may arise on campus.",
+          "\nYes, VIT Chennai has health-related facilities available on campus to cater to students' health needs. These facilities may include a medical center or clinic staffed with doctors, nurses, and medical professionals who provide basic medical services, first aid, consultations, and treatment for common health issues. Additionally, the campus may have tie-ups with nearby hospitals or healthcare centers for specialized medical care if required."
+        ],
+        "context": [
+          ""
+        ]
+      },
+      {
+        "tag": "library",
+        "patterns": [
+          "is there is any library",
+          "Tell me about library in vit",
+          "library in vit chennai",
+          "Does the VIT library offer access to digital or e-books in addition to physical copies",
+          "Can students request specific books to be added to the VIT library collection"
+        ],
+        "responses": [
+          "The library at VIT Chennai is a spacious and well-equipped facility that caters to the academic and research needs of students, faculty, and researchers. Here are some details about the library and the facilities provided:Size: The library at VIT Chennai is large and houses a vast collection of books, journals, periodicals, and electronic resources to support various academic disciplines. Digital Resources: The library provides access to online databases, e-journals, e-books, and other digital resources to facilitate research and study. Reading Areas: There are dedicated reading areas within the library where students and researchers can study in a quiet and conducive environment.Reference Services: The library offers reference services to assist users in finding relevant information and resources for their academic and research needs. Printing and Scanning: Facilities for printing, scanning, and photocopying are available within the library for the convenience of users.",
+          "\nThe library at VIT Chennai is a well-equipped and modern facility that provides extensive resources for academic and research purposes. It houses a vast collection of books, journals, e-resources, and multimedia materials covering various subjects and disciplines. The library offers comfortable seating areas, study spaces, computer terminals, and access to online databases to support students' learning and research needs. Trained librarians are available to assist students in finding and utilizing resources effectively."
+        ],
+        "context": [
+          ""
+        ]
+      },
+      {
+        "tag": "shopping ",
+        "patterns": [
+          "is there any shop",
+          "Tell me about vmart in vit",
+          "shopping in vit chennai",
+          "Could you provide information about what Vmart offers within VIT"
+        ],
+        "responses": [
+          "Yes, VIT Chennai has a multipurpose shopping mall called V-Mart on campus. V-Mart provides a convenient shopping experience for students, faculty, and visitors by offering a variety of products and services. It serves as a one-stop destination for shopping needs within the campus premises.",
+          "\nYes, VIT Chennai typically has shops or stores on campus that offer a variety of products and services to students and faculty. These shops may include stationery stores, bookstores, convenience stores, eateries, and other retail outlets catering to daily needs and preferences."
+        ],
+        "context": [
+          ""
+        ]
+      },
+      {
+        "tag": "parking",
+        "patterns": [
+          "is there is any parking area",
+          "Tell me about parking area in vit",
+          "parking in vit chennai"
+        ],
+        "responses": [
+          "Yes, VIT Chennai provides parking facilities for day scholars on campus. There are designated parking areas where day scholars can park their vehicles safely while attending classes or other activities on campus. The availability of parking spaces helps ensure convenience and accessibility for students who commute to the campus daily.",
+          "\nVIT Chennai provides designated parking areas on campus for students, faculty, and visitors. These parking areas are well-maintained and equipped to accommodate a large number of vehicles, including cars and two-wheelers. Security measures such as CCTV surveillance and parking attendants are often in place to ensure safety and orderliness in the parking facilities."
+        ],
+        "context": [
+          ""
+        ]
+      },
+      {
+        "tag": "Clubs",
+        "patterns": [
+          "How is the club in the VIT",
+          "VIT clubs",
+          "different types of club in VIT",
+          "How many different types of clubs are there for students at VIT",
+          "How do students go about joining different clubs at VIT",
+          "What kinds of clubs are present in the extracurricular scene at VIT",
+          "What are the various types of clubs available for students to join at VIT"
+        ],
+        "responses": [
+          "The clubs here at VIT suits everyone’s enthusiasms and fits everyone on campus. VIT is enhanced with many such clubs. These clubs help students cultivate leadership and team-building skills. These clubs are responsible for the never-ending stream of liveliness and events that happen in our college. Name technical, artistic, research-oriented or public speaking, everything and everyone is satisfied here.",
+          "/nAcademic Clubs: These clubs focus on specific academic disciplines such as engineering, science, mathematics, literature, or business.\n\nCultural Clubs: These clubs celebrate diversity and promote cultural exchange through events, performances, and workshops.\n\nSports Clubs: VIT offers sports clubs for various sports and athletic activities, including football, basketball, cricket, volleyball, tennis, and more.\n\nArts and Creativity Clubs: These clubs provide platforms for students interested in music, dance, painting, photography, theater, and other forms of artistic expression.\n\nTechnical Clubs: These clubs focus on technology-related activities such as coding, robotics, electronics, and software development.\n\nEnvironmental and Social Clubs: These clubs engage in activities related to environmental conservation, sustainability, and community service.\n\nEntrepreneurship Clubs: These clubs support aspiring entrepreneurs by organizing workshops, networking events, and business competitions.\n\nDebate and Literary Clubs: These clubs foster critical thinking, public speaking, and writing skills through debates, discussions, and literary activities.\n\nHealth and Wellness Clubs: These clubs promote physical and mental well-being through fitness programs, yoga sessions, and awareness campaigns.\n\nSpecial Interest Clubs: These clubs cater to niche interests and hobbies such as gaming, astronomy, cooking, and travel."
+        ],
+        "context": [
+          ""
+        ]
+      },
+      {
+        "tag": "Banks and ATM",
+        "patterns": [
+          "Is there any ATM in VIT campus",
+          "VIT bank",
+          "ATM in VIT"
+        ],
+        "responses": [
+          "Banks & ATM’s : The Indian Bank branch is available in the campus with ATM facility."
+        ],
+        "context": [
+          ""
+        ]
+      },
+      {
+        "tag": "campus life",
+        "patterns": [
+          "How is the campus life of VIT",
+          "Shops in VIT",
+          "canteen in VIT",
+          "What is the overall campus experience like for students at VIT",
+          "What are some of the highlights of campus life at VIT",
+          "How do students typically spend their time outside of classes at VIT"
+        ],
+        "responses": [
+          "VIT offers many amenities for large student community to ensure their being conducive for holistic development and an open atmosphere giving much autonomy to students to take ownership of all the available facilities from the time of admission until completion of their academic programmes on Campus. We make every effort guaranteeing their comfort and stay on Campus. VIT has always been unflinching in reaching out to every student who is at the core of all research and academic life being an important stakeholder in the vision.The campus is a self-sufficient enclave with concrete, well-lit roads. Its facilities include a Canteen, Chat and Bakery Food Courts.Mart is a multipurpose shopping mall. It stocks a variety of student needs from mattresses, clothing and accessories to greeting cards"
+        ],
+        "context": [
+          ""
+        ]
+      },
+      {
+        "tag": "Hostels",
+        "patterns": [
+          "How is hostels in VIT",
+          "living environment in VIT",
+          "Hostle facilities"
+        ],
+        "responses": [
+          "Hostels at VIT Chennai are really amazing, highly ventilated, clean washrooms, the rooms are cleaned once everyday,\nWashrooms : The washrooms are cleaned atleast 3 times a day, the hostels have 15-17 floors and there are washrooms on 2 sides of each floor with 10 bathing and 10 potty ones :) There is hot water available all day, all the time.\nClothes Washing : There are washing machines available, one every 3 times on a month, then there are 2 hand wash stations in each washroom and also there is a dhobi available, 3 days a week.\nTV : There is a TV, on floor numbers, multiple of 3. IPL matches etc are watched with a lot of enthusiasm by the students. There is a screen with a projector where movies are played once a week.\n"
+        ],
+        "context": [
+          ""
+        ]
+      },
+      {
+        "tag": "leave",
+        "patterns": [
+          "Hostel leave in VIT",
+          "Outing in VIT",
+          "Outing time"
+        ],
+        "responses": [
+          "Hostellers are allowed to go out for shopping etc ('outing'). During day time on the days when the classes are not there ('no-class days') for 6 hours. Four such outings are allowed every month. On the No-class days, the in-time will be 6 pm.\n"
+        ],
+        "context": [
+          ""
+        ]
+      },
+      {
+        "tag": "Mess",
+        "patterns": [
+          "How is the mess in VIT?",
+          "different mess in VIT",
+          "mess menu of VIT",
+          "how is the hostel mess food in VIT"
+        ],
+        "responses": [
+          "There are three types of mess till last year but this year they added a new type .I will explain all of them\n1.veg mess\n2.non-veg mess\n3.Special mess\n4.Food park(new one)\nveg mess:-\nBreakfast:\nGlass of fresh juice ( you can take more )\nTea\nCoffee\ncornflakes\nCold milk to go with the cornflakes\nIndian breakfast ( includes the curry and everything )\nAny prep of egg\nToasted bread\nButter, jam\n\nLunch :\nSweet ( gulab jamun/ peda / jjilebi etc\nRice\nDal\nRoti/ nan / chappati / kulcha\nSome sabji\nAnother special curry\nSalad\nCurd / butter milk\nPapad / potato fry\nVeg special : crispy fried vegetables\n\nSnacks :\nTea\nCoffee\nAny particular snack\n\nDinner :\nfruit (usually banana)\nRoti\nSoup\nDeal\nSome kind of special rice\nCurry\nCucumbers or onion\nMilk\nDal\nSpecial curry ( Mon, wed, Fri, sun)\n\n\nSpecial mess menu :- \nBreakfast:\nGlass of fresh juice ( you can take more )\nTea\nCoffee\ncornflakes\nCold milk to go with the cornflakes\nIndian breakfast ( includes the curry and everything )\nAny prep of egg\nToasted bread\nButter, jam\n\nLunch :\nSweet ( gulab jamun/ peda / jjilebi etc\nRice\nDal\nRoti/ nan / chappati / kulcha\nSome sabji\nAnother special curry\nSalad\nCurd / butter milk\nPapad / potato fry\nVeg special : crispy fried vegetables\nSnacks :\nTea\nCoffee\nAny particular snack\nDinner :\nfruit (usually banana)\nRoti\nSoup\nDeal\nSome kind of special rice\nCurry\nCucumbers or onion\nMilk\nDal\nSpecial curry ( Mon, wed, Fri, sun)\n\nNon veg\nChilli chicken\nChicken 65\nChicken curry ( variants )\nTandoori chicken\nGarlic chicken\nveg\nPanner tikka\nButter panner masala\nChilli Gobi\nBaby corn 65/ Gobi 65\nChilli potato fry\nMushroom curry.\nOn specials day one of the above veg and non veg delicacy would be served.\nOn Wednesdays usually we have biriyani.\n\nFood park:-\n\nYou will have a card that you have to recharge for 75,000 in starting of the year and then you can go and order the food of your choice for which money will be deducted accordingly\n\nonce recharge money is completed you can recharge it again but if there is something left you will not get a refund\n\nhope this helps.\n"
+        ],
+        "context": [
+          ""
+        ]
+      },
+      {
+        "tag": "Attendance",
+        "patterns": [
+          "What is the attendance criteria of VIT",
+          "minimum attendance criteria of VIT",
+          "required attendance to give exam"
+        ],
+        "responses": [
+          "You have to have at least 75% attendance in each subject before any set of test namely CAT1, CAT2, FAT tests. Please note the attendance is counted up to 1 day prior to the last instructional day before the test.\n\nAlthough if your CGPA is above 9 you don’t have the minimum attendance criteria and can use this time to pursue other projects, research work or take part in competitions(as per the University).\n"
+        ],
+        "context": [
+          ""
+        ]
+      }
+    ]
+  }

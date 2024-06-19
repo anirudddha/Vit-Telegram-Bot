@@ -1,0 +1,53 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": ["Hi there", "How are you", "Is anyone there?", "Hey", "Hola", "Hello", "Good day"],
+            "responses": ["Hello", "Good to see you again", "Hi there, how can I help?"],
+            "context": [""]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+            "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+            "context": [""]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+            "responses": ["My pleasure", "You're Welcome"],
+            "context": [""]
+        },
+        {
+            "tag": "query",
+            "patterns": ["What is Simplilearn?"],
+            "responses": ["Simplilearn is the popular online Bootcamp & online courses learning platform"],
+            "context": [""]
+        },
+        {
+            "tag": "vit",
+            "patterns": ["What is VIT?", "Tell me about VIT", "VIT University information"],
+            "responses": ["VIT (Vellore Institute of Technology) is a private deemed university located in Vellore, Tamil Nadu, India. It was founded in 1984 and has since grown to become one of the top educational institutions in the country. VIT offers undergraduate, postgraduate, and doctoral programs in various fields of study including engineering, management, sciences, and humanities. The university is known for its state-of-the-art infrastructure, highly qualified faculty, and emphasis on research and innovation."],
+            "context": [""]
+        },
+        {
+            "tag": "courses",
+            "patterns": ["What courses does VIT offer?", "Tell me about the courses at VIT", "List of programs at VIT"],
+            "responses": ["VIT offers a wide range of courses across multiple disciplines. Some of the popular undergraduate programs include B.Tech, B.Sc, BBA, B.Com, and B.Arch. The university also offers postgraduate programs such as M.Tech, M.Sc, MBA, MCA, and M.Arch. Additionally, VIT provides doctoral programs for those interested in pursuing research in various fields. The courses at VIT are designed to provide students with a comprehensive education and prepare them for successful careers in their chosen fields."],
+            "context": [""]
+        },
+        {
+            "tag": "admission",
+            "patterns": ["How can I get admission in VIT?", "What is the admission process at VIT?", "Admission criteria for VIT"],
+            "responses": ["To get admission in VIT, you need to appear for the Vellore Institute of Technology Engineering Entrance Examination (VITEEE) for undergraduate programs such as B.Tech. The exam is conducted annually and tests your knowledge in subjects like Physics, Chemistry, Mathematics, and English. The selection for other programs like postgraduate courses is based on merit, which includes academic performance and performance in entrance exams like GATE, CAT, and MAT. It is recommended to visit the official VIT website for the most up-to-date admission information."],
+            "context": [""]
+        },
+        {
+            "tag": "placements",
+            "patterns": ["How are the placements at VIT?", "Tell me about the campus placements at VIT", "Placement statistics of VIT"],
+            "responses": ["VIT has a strong track record when it comes to placements. The university has a dedicated placement cell that works towards providing placement opportunities for the students. Major companies from various industries visit the campus for recruitment drives. The placement statistics at VIT are impressive, with a high percentage of students being placed in reputed companies with competitive salary packages. The university also offers internships and training programs to enhance the students' industry readiness and employability skills."],
+            "context": [""]
+        }
+    ]
+}
+    
